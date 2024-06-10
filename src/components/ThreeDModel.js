@@ -48,7 +48,7 @@ const ThreeDModel = () => {
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 10, 5]} intensity={1} />
                 <Suspense fallback={null}>
-                    <LazyGLTFModel path="/models/novo_boulaide_estática_GLTF.gltf" pointsOfInterest={pointsOfInterest} onPointClick={handlePointClick} />
+                    <LazyGLTFModel path="/models/boulaid_castelo.gltf" pointsOfInterest={pointsOfInterest} onPointClick={handlePointClick} />
                 </Suspense>
                 <OrbitControls />
                 <CameraController selectedPoint={selectedPoint} />
