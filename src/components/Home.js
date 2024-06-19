@@ -13,6 +13,9 @@ function Home() {
             <li><Link to="/model1">BoulaidCastelo</Link></li>
             <li><Link to="/model2">ExpoLandOfMemory</Link></li>
             <li><Link to="/model3">HoufelsAnimado</Link></li>
+            <li><Link to="/model4">BoulaidCasteloAtt</Link></li>
+            <li><Link to="/model5">BoulaidReduzido</Link></li>
+            {/* <li><Link to="/model6">FBXModel</Link></li> */}
           </ul>
         </nav>
       </header>
